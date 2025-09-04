@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Html 기본 및 시맨틱 태그 연습</title>
+</head>
+<body>
+    <header>
+        <h1>나의 웹 페이지, 여기는 헤더</h1>
+    </header>
+    <nav>
+        <a href="#about">소개</a> | <a href="#contact">컨텍트</a> | <a href="#services">서비스</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>회사 소개</h2>
+			<img src = "ho.jpg" alt="회사 이미지" width="500" height"405"></img>
+        </section>
+        <section id="services">
+            <h2>제공 서비스</h2>
+			<P>다양한 웹 솔루션을 제공하고있습니다.
+			<ul>
+				<li>웹사이트 개발</li>
+				<li>모바일 앱 개발</li>
+			</ul>
+        </section>
+        <section id="contact">
+            <h2>연락처</h2>
+            <p>문의 사항이 있으면 언제든지 연락주이세요</p>
+			<form action="/sumit method="post">
+				<label>이름:</label>
+					<input type ="text" id="name" name="name" ><br>
+				<label>이메일:</label><br>
+					<input type ="email" id="email" name="email"><br>
+				<label>메세지:</label><br>
+					<textarea id="message" name="message"></textarea><br><br>
+				<input type ="sumit" value="보내기">
+				
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 나의 블로그. 모든 권리 보유.</p>
+    </footer>
+
+</body>
+</html>

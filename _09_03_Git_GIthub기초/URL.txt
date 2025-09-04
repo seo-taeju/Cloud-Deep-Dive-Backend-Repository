@@ -1,0 +1,5 @@
+(Git) 원격 저장소 생성 및 연결 - 원격 저장소 URL
+https://github.com/seo-taeju/git_test.git
+
+(Git) 변경 사항 push 및 pull- 1. GitHub에 푸시된 커밋 링크
+https://github.com/seo-taeju/git_test/blob/main/hellowolrd.html
